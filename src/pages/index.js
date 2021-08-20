@@ -30,6 +30,7 @@ import LogNotif from './LogNotif';
 import UpgradeType from './UpgradeType';
 import Pay from './TopUp/pay';
 import Courier from './Courier';
+import Tree from './Tree'
 export {
   Product,
   Profile,
@@ -62,5 +63,6 @@ export {
   LogNotif,
   UpgradeType,
   Pay,
-  Courier
+  Courier,
+  Tree
 };

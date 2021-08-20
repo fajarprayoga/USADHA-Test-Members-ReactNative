@@ -35,6 +35,7 @@ import {
   UpgradeType,
   Pay,
   Courier,
+  Tree,
 } from '../pages';
 import {ButtomNavigator, NotifAlert} from '../component';
 
@@ -212,6 +213,11 @@ const Router = () => {
         <Stack.Screen
         name="Courier"
         component={Courier}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="Tree"
+        component={Tree}
         options={{headerShown: false}}
       />
     </Stack.Navigator>
